@@ -4,5 +4,7 @@ let statusElement = document.getElementById("status");
 let enterBtnElement = document.getElementById("enterBtn");
 
 enterBtnElement.addEventListener("click",()=>{
-	statusElement.textContent = "Entered Metaverse"
+
+	statusElement.innerHTML = "<h1>Entered Metaverse</h1>"
 })
+
